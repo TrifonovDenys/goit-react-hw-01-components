@@ -1,5 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/swiper.min.css';
+import "./style.css";
+import 'swiper/swiper.css';
 import user from '../user.json'
 import data from '../data.json'
 import friends from '../friends.json';
@@ -22,8 +23,12 @@ export const App = () => {
       }}
     >
       <Swiper
-        spaceBetween={50}
+        className="slider"
+        // spaceBetween={50}
         slidesPerView={1}
+        centeredSlides
+        centerInsufficientSlides={true}
+        loop
         // onSlideChange={() => console.log('slide change')}
         // onSwiper={(swiper) => console.log(swiper)}
       >

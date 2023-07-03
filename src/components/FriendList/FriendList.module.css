@@ -1,0 +1,27 @@
+.friendlist{
+  max-width: 400px;
+}
+.item{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 10px 20px;
+  background: #fff;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  transition: transform 0.5s;
+  min-width: 250px;
+}
+.item:hover,
+.item:focus{
+  transform: scale(1.1)
+}
+.status{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.avatar{
+  margin-right: 10px;
+}

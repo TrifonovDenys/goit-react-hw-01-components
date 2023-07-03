@@ -1,0 +1,25 @@
+.statistics{
+  display: inline-block;
+ text-align: center;
+ background: #fff;
+ min-width: 700px;
+}
+.title{
+  color: rgb(92, 92, 92);
+  padding: 20px 30px;
+}
+.statlist{
+  display: flex;
+  list-style: none;
+}
+.statlist li{
+  flex-basis: calc(100% / 5);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px 20px;
+  color: #fff;
+}
+.statlist li:hover, .statlist li:focus {
+  box-shadow: inset rgba(0, 0, 0, 0.24) 0px 3px 8px;;
+}
