@@ -11,10 +11,8 @@ export const StatItem = ({ stats }) => {
 }
 
 StatItem.propTypes = {
-  stats: PropTypes.arrayOf(
-    PropTypes.shape({
-      label: PropTypes.string.isRequired,
-      percentage: PropTypes.number.isRequired
-    })
-  )
+    stats: PropTypes.arrayOf(PropTypes.shape({
+        label: PropTypes.string.isRequired,
+        percentage: PropTypes.number.isRequired
+})).isRequired
 }
